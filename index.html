@@ -1,35 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Support</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <link rel="stylesheet" href="apple.css">
+</header>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="homebutton.css">
-</head>
+<section class="hero">
+  <h1>Welcome to our website</h1>
+  <p>Explore our products and services</p>
+  <button>Learn More</button>
+</section>
 
-<body>
-
-<button class="mobile-menu-icon"
-onclick="document.querySelector('body').classList.toggle('menu-open');">
-    <span></span>
-    <span></span>
-    <span></span>
-</button>
-  <div id="container">
-    <div class="cover-slide hover-darken inview">
-      <img class="img-zoom" src="images/image-1.jpg" alt="">
-    </div>
-    <!-- <div class="cover-slide hover-darken inview">
-        <div class="bg-img-zoom img-bg50"></div>
-      </div> -->
-      <video controls="controls autoplay" width="700" height="350">
-        <source src="IMG_2953.MOV">
-    </video>
-    
+<section class="featured-products">
+  <h2>Featured Products</h2>
+  <div class="product-card">
+    <img src="product1.jpg" alt="product 1">
+    <h3>Product 1</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button>Learn More</button>
   </div>
-</body>
-
-</html>
+  <div class="product-card">
+    <img src="product2.jpg" alt="product 2">
+    <h3>Product 2</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button>Learn More</button>
+  </div>
+  <div class="product-card">
+    <img src="product3.jpg" alt="product 3">
+    <h3>Product 3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button>Learn More</button>
+  </div>
+</section>
